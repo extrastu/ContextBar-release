@@ -214,40 +214,29 @@
       "enabled": false,
       "category": "translation",
       "type": "url",
-      "urlTemplate": "https://translate.google.com/?sl=auto&tl=zh-CN&text={{text}}&op=translate",
-      "textTemplate": "Translate to Chinese"
-    },
-    {
-      "id": "translate",
-      "name": "Translate",
-      "icon": "https://translate.google.com/favicon.ico",
-      "enabled": false,
-      "category": "translation",
-      "type": "api",
-      "apiEndpoint": "https://translation.googleapis.com/language/translate/v2",
-      "apiMethod": "POST",
+      "urlTemplate": "https://translate.google.com/?sl=auto&tl={{targetLang}}&text={{text}}&op=translate",
       "textTemplate": "Translate text",
       "configFields": [
         {
-          "key": "apiKey",
-          "label": "Google Cloud API Key",
-          "type": "password",
-          "placeholder": "Enter your API key",
-          "required": true,
-          "description": "Get your API key from Google Cloud Console"
-        },
-        {
-          "key": "targetLanguage",
+          "key": "targetLang",
           "label": "Target Language",
-          "type": "text",
-          "placeholder": "en",
+          "type": "select",
+          "placeholder": "zh-CN",
           "required": false,
-          "description": "Language code (e.g., en, zh, ja)"
+          "description": "Select target language for translation",
+          "options": [
+            { "value": "zh-CN", "label": "Chinese (Simplified)" },
+            { "value": "en", "label": "English" },
+            { "value": "ja", "label": "Japanese" },
+            { "value": "ko", "label": "Korean" },
+            { "value": "fr", "label": "French" },
+            { "value": "de", "label": "German" },
+            { "value": "es", "label": "Spanish" }
+          ]
         }
       ],
       "config": {
-        "apiKey": "",
-        "targetLanguage": "en"
+        "targetLang": "zh-CN"
       }
     },
 
