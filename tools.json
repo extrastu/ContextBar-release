@@ -1,0 +1,279 @@
+{
+  "version": "1.0.7",
+  "tools": [
+    {
+      "id": "google",
+      "name": "Google",
+      "icon": "https://www.google.com/favicon.ico",
+      "enabled": true,
+      "category": "search",
+      "type": "url",
+      "urlTemplate": "https://www.google.com/search?q={{text}}",
+      "textTemplate": "Search Google"
+    },
+    {
+      "id": "bing",
+      "name": "Bing",
+      "icon": "https://www.bing.com/favicon.ico",
+      "enabled": false,
+      "category": "search",
+      "type": "url",
+      "urlTemplate": "https://www.bing.com/search?q={{text}}",
+      "textTemplate": "Search Bing"
+    },
+    {
+      "id": "duckduckgo",
+      "name": "DuckDuckGo",
+      "icon": "https://www.duckduckgo.com/favicon.ico",
+      "enabled": false,
+      "category": "search",
+      "type": "url",
+      "urlTemplate": "https://www.duckduckgo.com/?q={{text}}",
+      "textTemplate": "Search DuckDuckGo"
+    },
+    {
+      "id": "baidu",
+      "name": "Baidu",
+      "icon": "https://www.baidu.com/favicon.ico",
+      "enabled": false,
+      "category": "search",
+      "type": "url",
+      "urlTemplate": "https://www.baidu.com/s?wd={{text}}",
+      "textTemplate": "Search on Baidu"
+    },
+    {
+      "id": "google-images",
+      "name": "Google Images",
+      "icon": "https://www.google.com/favicon.ico",
+      "enabled": false,
+      "category": "search",
+      "type": "url",
+      "urlTemplate": "https://www.google.com/search?tbm=isch&q={{text}}",
+      "textTemplate": "Search images"
+    },
+
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "icon": "https://chat.openai.com/favicon.ico",
+      "enabled": true,
+      "category": "ai",
+      "type": "url",
+      "urlTemplate": "https://chat.openai.com/?q={{text}}",
+      "textTemplate": "Ask ChatGPT"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "icon": "https://google.com/favicon.ico",
+      "enabled": true,
+      "category": "ai",
+      "type": "url",
+      "urlTemplate": "https://gemini.google.com/?q={{text}}",
+      "textTemplate": "Ask Gemini"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "icon": "https://claude.ai/favicon.ico",
+      "enabled": false,
+      "category": "ai",
+      "type": "url",
+      "urlTemplate": "https://claude.ai/new?q={{text}}",
+      "textTemplate": "Ask Claude"
+    },
+
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "icon": "https://twitter.com/favicon.ico",
+      "enabled": false,
+      "category": "social",
+      "type": "url",
+      "urlTemplate": "https://twitter.com/search?q={{text}}",
+      "textTemplate": "Search on Twitter"
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "icon": "https://x.com/favicon.ico",
+      "enabled": false,
+      "category": "social",
+      "type": "url",
+      "urlTemplate": "https://x.com/intent/post?text={{text}}",
+      "textTemplate": "Post on X"
+    },
+    {
+      "id": "weibo",
+      "name": "Weibo",
+      "icon": "https://weibo.com/favicon.ico",
+      "enabled": false,
+      "category": "social",
+      "type": "url",
+      "urlTemplate": "https://s.weibo.com/weibo?q={{text}}",
+      "textTemplate": "Search on Weibo"
+    },
+
+    {
+      "id": "neodb",
+      "name": "NeoDB",
+      "icon": "https://neodb.social/s/img/icon.png",
+      "enabled": false,
+      "category": "media",
+      "type": "url",
+      "urlTemplate": "https://neodb.social/search?q={{text}}",
+      "textTemplate": "Search on NeoDB"
+    },
+    {
+      "id": "douban",
+      "name": "Douban",
+      "icon": "https://www.douban.com/favicon.ico",
+      "enabled": false,
+      "category": "media",
+      "type": "url",
+      "urlTemplate": "https://www.douban.com/search?q={{text}}",
+      "textTemplate": "Search on Douban"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "icon": "https://www.youtube.com/favicon.ico",
+      "enabled": false,
+      "category": "media",
+      "type": "url",
+      "urlTemplate": "https://www.youtube.com/results?search_query={{text}}",
+      "textTemplate": "Search YouTube"
+    },
+
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia",
+      "icon": "https://www.wikipedia.org/favicon.ico",
+      "enabled": false,
+      "category": "reference",
+      "type": "url",
+      "urlTemplate": "https://en.wikipedia.org/wiki/{{text}}",
+      "textTemplate": "Search Wikipedia"
+    },
+    {
+      "id": "mdn",
+      "name": "MDN",
+      "icon": "https://developer.mozilla.org/favicon.ico",
+      "enabled": false,
+      "category": "reference",
+      "type": "url",
+      "urlTemplate": "https://developer.mozilla.org/en-US/search?q={{text}}",
+      "textTemplate": "Search MDN docs"
+    },
+    {
+      "id": "merriam-webster",
+      "name": "Merriam-Webster",
+      "icon": "https://www.merriam-webster.com/favicon.ico",
+      "enabled": false,
+      "category": "reference",
+      "type": "url",
+      "urlTemplate": "https://www.merriam-webster.com/dictionary/{{text}}",
+      "textTemplate": "Look up definition"
+    },
+
+    {
+      "id": "github",
+      "name": "GitHub",
+      "icon": "https://github.com/favicon.ico",
+      "enabled": false,
+      "category": "development",
+      "type": "url",
+      "urlTemplate": "https://github.com/search?q={{text}}",
+      "textTemplate": "Search GitHub"
+    },
+    {
+      "id": "stackoverflow",
+      "name": "StackOverflow",
+      "icon": "https://stackoverflow.com/favicon.ico",
+      "enabled": false,
+      "category": "development",
+      "type": "url",
+      "urlTemplate": "https://stackoverflow.com/search?q={{text}}",
+      "textTemplate": "Search questions"
+    },
+    {
+      "id": "npm",
+      "name": "NPM",
+      "icon": "https://www.npmjs.com/favicon.ico",
+      "enabled": false,
+      "category": "development",
+      "type": "url",
+      "urlTemplate": "https://www.npmjs.com/search?q={{text}}",
+      "textTemplate": "Search packages"
+    },
+
+    {
+      "id": "google-translate",
+      "name": "Google Translate",
+      "icon": "https://translate.google.com/favicon.ico",
+      "enabled": false,
+      "category": "translation",
+      "type": "url",
+      "urlTemplate": "https://translate.google.com/?sl=auto&tl=zh-CN&text={{text}}&op=translate",
+      "textTemplate": "Translate to Chinese"
+    },
+    {
+      "id": "translate",
+      "name": "Translate",
+      "icon": "https://translate.google.com/favicon.ico",
+      "enabled": false,
+      "category": "translation",
+      "type": "api",
+      "apiEndpoint": "https://translation.googleapis.com/language/translate/v2",
+      "apiMethod": "POST",
+      "textTemplate": "Translate text",
+      "configFields": [
+        {
+          "key": "apiKey",
+          "label": "Google Cloud API Key",
+          "type": "password",
+          "placeholder": "Enter your API key",
+          "required": true,
+          "description": "Get your API key from Google Cloud Console"
+        },
+        {
+          "key": "targetLanguage",
+          "label": "Target Language",
+          "type": "text",
+          "placeholder": "en",
+          "required": false,
+          "description": "Language code (e.g., en, zh, ja)"
+        }
+      ],
+      "config": {
+        "apiKey": "",
+        "targetLanguage": "en"
+      }
+    },
+
+    {
+      "id": "flomo",
+      "name": "flomo",
+      "icon": "https://flomoapp.com/images/logo.png",
+      "enabled": false,
+      "category": "tools",
+      "type": "api",
+      "apiEndpoint": "",
+      "apiMethod": "POST",
+      "textTemplate": "Add to Flomo",
+      "configFields": [
+        {
+          "key": "webhookUrl",
+          "label": "Flomo Webhook URL",
+          "type": "text",
+          "placeholder": "https://flomoapp.com/iwh/xxx/yyy/",
+          "required": true,
+          "description": "Get your webhook URL from Flomo settings (完整的 webhook 地址)"
+        }
+      ],
+      "config": {
+        "webhookUrl": ""
+      }
+    }
+  ]
+}
